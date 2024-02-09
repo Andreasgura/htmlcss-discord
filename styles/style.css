@@ -16,31 +16,61 @@ sans-serif;
 
 
 :root {
-    --color-scondary: #ffffff;
-    --color-primary: #23272a;
-    --color-header-bg: #255ee9;
-    --color-section-bg: #f6f6f6;
-    --color-contrast: #aebbe7;
+	--color-scondary: #ffffff;
+	--color-primary: #23272a;
+	--color-header-bg: #255ee9;
+	--color-section-bg: #f6f6f6;
+	--color-contrast: #aebbe7;
 }
 
 /* header */
 header {
-    background-color: var(--color-header-bg);
+	background-color: #255ee9;
+}
+.jumbo {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    width: 100%;
+    min-height: 300px;
 }
 
 /* main */
-/* main {
-    background-color: var();
-} */
+
 .bg-odd {
-    background-color: var(--color-scondary);
+    background-color: #ffffff;
 }
 
 .bg-even {
-    background-color: var(--color-section-bg);
+    background-color: #f6f6f6;
+}
+.left {
+    width: 60%;
+}
+.right {
+    width: 40%;
+}
+.jumbo>div, cta {
+    width: 60%;
+    margin: auto;
+    text-align: center;
 }
 
 /* footer */
 footer {
-    background-color: var(--color-primary);
+    background-color: #23272a;
+}
+
+/* utility */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.d-flex {
+    display: flex;
+}
+.space-between {
+    justify-content: space-between;
+}
+.row-reverse{
+    flex-direction: row-reverse;
 }
