@@ -9,7 +9,7 @@
 /* reset */
 
 * {
-    margin: 0;
+    margin: 0, auto;
     padding: 0;
     box-sizing: border-box;
 }
@@ -52,10 +52,25 @@ header {
 
 .right {
     width: 40%;
+    padding: 3.5%;
+}
+
+.left>img {
+    width: 100%;
+}
+.right>img {
+    width: 100%;
+}
+.community-media {
+    text-align: center;
+}
+.community-media img {
+    background-size: cover;
+    width: 100%;
 }
 
 .jumbo>div,
-cta {
+.cta {
     width: 60%;
     margin: auto;
     text-align: center;
