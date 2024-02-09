@@ -5,9 +5,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 ul {
     list-style: none;
- }
+}
 
 /* general */
-font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Sans',
+sans-serif;
+
+
+:root {
+    --color-scondary: #ffffff;
+    --color-primary: #23272a;
+    --color-header-bg: #255ee9;
+    --color-section-bg: #f6f6f6;
+    --color-contrast: #aebbe7;
+}
+
+/* header */
+header {
+    background-color: var(--color-header-bg);
+}
+
+/* main */
+/* main {
+    background-color: var();
+} */
+.bg-odd {
+    background-color: var(--color-scondary);
+}
+
+.bg-even {
+    background-color: var(--color-section-bg);
+}
+
+/* footer */
+footer {
+    background-color: var(--color-primary);
+}
